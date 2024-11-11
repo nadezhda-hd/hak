@@ -1,0 +1,18 @@
+body{
+    direction: rtl;
+}
+:root {
+    --primary-color: #39ff14;
+    --Secondary-color: #30384d;
+    --Secondary-Light-color: #454c5f;
+    --Secondary-Dark-color: #272727;
+    --Secondary-Darker-color: #101010;
+  }
+  .rounded {
+    border-radius: 10px;
+  }
+  .flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
