@@ -8,7 +8,7 @@ body {
   --Secondary-Light-color: #454c5f;
   --Secondary-Dark-color: #272727;
   --Secondary-Darker-color: #101010;
-  --icone-section2:#434A5A;
+  --icone-section2: #434a5a;
 }
 .circle-background {
   border-radius: 100%;
@@ -96,7 +96,7 @@ header {
   width: 170px;
   height: 48px;
   background-color: var(--primary-color);
-  color:black;
+  color: black;
 }
 .introduction-section__introduction__img-container {
   position: absolute;
@@ -113,25 +113,99 @@ header {
   width: 380px;
   height: 120px;
   position: absolute;
-  top:0px;
-  transform:translate(0 , -50%);
+  top: 0px;
+  transform: translate(0, -50%);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  color:white;
+  color: white;
+  font-family: IRANYekanWebFn;
+  font-size: 24px;
+  font-weight: 700;
 }
-.competition-section__card-icon{
-    background-color:var(--icone-section2);
-    padding:8px;
+.competition-section__card-icon {
+  background-color: var(--icone-section2);
+  padding: 8px;
 }
-.competition-section__card.card1{
-    left:930px;
+.competition-section__card.card1 {
+  left: 930px;
 }
-.competition-section__card.card2{
-    left:530px;
-    margin-bottom:80px;
+.competition-section__card.card2 {
+  left: 530px;
 }
-.competition-section__card.card3{
-    left:130px;
+.competition-section__card.card3 {
+  left: 130px;
+}
+.competition-section__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 160px;
+  text-align: center;
+  color: white;
+}
+.competition-section__title-1 {
+  margin-bottom: 16px;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: right;
+}
+.competition-section__title-2 {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+}
+.competition-section__line {
+  position: absolute;
+  top: 275px;
+  left:335px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.competition-section__icone {
+
+}
+.competition-section__icone{
+height:48px;
+display:inline-block;
+background-color:var(--Secondary-Light-color);
+padding:8px;
+position: absolute;
+top:275px;
+transform: translate(0 , -30%);
+}
+.competition-section__icone.icone-1{
+left: 1234px;
+}
+.competition-section__icone.icone-2{
+    left:935px;
+}
+.competition-section__icone.icone-3{
+    left: 635px;
+}
+.competition-section__icone.icone-4{
+    left: 335px;
+}
+.competition-section__content{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    align-items:self-start;
+    top:295px;
+    width:15%;
+    transform: translate(-70% , 50%);
+    color:white;
+}
+.competition-section__content.content-1{
+    left: 1234px;
+}
+.competition-section__content.content-2{
+    left: 935px;;
+}
+.competition-section__content.content-3{
+    left: 635px;
+}
+.competition-section__content.content-4{
+    left: 335px;
 }
