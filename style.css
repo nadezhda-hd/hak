@@ -9,6 +9,7 @@ body {
   --Secondary-Dark-color: #272727;
   --Secondary-Darker-color: #101010;
   --icone-section2: #434a5a;
+  --gray-2-color: #757575;
 }
 .circle-background {
   border-radius: 100%;
@@ -159,53 +160,79 @@ header {
 .competition-section__line {
   position: absolute;
   top: 275px;
-  left:335px;
+  left: 335px;
   overflow: hidden;
   box-sizing: border-box;
 }
 .competition-section__icone {
+}
+.competition-section__icone {
+  height: 48px;
+  display: inline-block;
+  background-color: var(--Secondary-Light-color);
+  padding: 8px;
+  position: absolute;
+  top: 275px;
+  transform: translate(0, -30%);
+}
+.competition-section__icone.icone-1 {
+  left: 1234px;
+}
+.competition-section__icone.icone-2 {
+  left: 935px;
+}
+.competition-section__icone.icone-3 {
+  left: 635px;
+}
+.competition-section__icone.icone-4 {
+  left: 335px;
+}
+.competition-section__content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  top: 295px;
+  width: 15%;
+  transform: translate(-70%, 50%);
+  color: white;
+}
+.competition-section__content.content-1 {
+  left: 1234px;
+}
+.competition-section__content.content-2 {
+  left: 935px;
+}
+.competition-section__content.content-3 {
+  left: 635px;
+}
+.competition-section__content.content-4 {
+  left: 335px;
+}
 
+.gift-section {
+  height: 166px;
+  background-color: #757575;
 }
-.competition-section__icone{
-height:48px;
-display:inline-block;
-background-color:var(--Secondary-Light-color);
-padding:8px;
-position: absolute;
-top:275px;
-transform: translate(0 , -30%);
+.gift-section__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
 }
-.competition-section__icone.icone-1{
-left: 1234px;
+.gift-section__title-1 {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 22px;
+  text-align: center;
+  margin-bottom:8px;
 }
-.competition-section__icone.icone-2{
-    left:935px;
+.gift-section__title-1 span{
+    color:var(--primary-color);
 }
-.competition-section__icone.icone-3{
-    left: 635px;
-}
-.competition-section__icone.icone-4{
-    left: 335px;
-}
-.competition-section__content{
-    position:absolute;
-    display: flex;
-    flex-direction: column;
-    align-items:self-start;
-    top:295px;
-    width:15%;
-    transform: translate(-70% , 50%);
-    color:white;
-}
-.competition-section__content.content-1{
-    left: 1234px;
-}
-.competition-section__content.content-2{
-    left: 935px;;
-}
-.competition-section__content.content-3{
-    left: 635px;
-}
-.competition-section__content.content-4{
-    left: 335px;
+.gift-section__title-2 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
 }
