@@ -10,6 +10,7 @@ body {
   --Secondary-Darker-color: #101010;
   --icone-section2: #434a5a;
   --gray-2-color: #757575;
+  --gray-3-color:#282828;
 }
 .circle-background {
   border-radius: 100%;
@@ -235,30 +236,64 @@ header {
   line-height: 22px;
   text-align: center;
 }
+.gift-section .gift-card {
+  width: 581px;
+  height: 88px;
+  background-color: var(--Secondary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 8px;
+  position: absolute;
+  left: 130px;
+}
+.gift-section .gift-card div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.gift-section .gift-card div .icone-container{
+    background-color:var(--gray-3-color) ;
+    padding:8px;
+}
 .gift-section__container-cards1 {
   height: 210px;
   background-color: var(--Secondary-Darker-color);
   position: relative;
+  display: flex;
+}
+.gift-section__container-cards1__card1 {
+  top: 80px;
 }
 .gift-section__container-cards2 {
-  height: 255px;
+  height: 250px;
   background-color: var(--Secondary-Dark-color);
   position: relative;
 }
+.gift-section__container-cards2__content-card {
+  position: absolute;
+  width: 30%;
+  top: 60px;
+}
+.gift-section__container-cards2__card2 {
+  top: 0;
+  transform: translate(0, -27%);
+}
+.gift-section__container-cards2__card3 {
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
 .gift-section__container-cards3 {
   height: 210px;
   background-color: var(--Secondary-Darker-color);
   position: relative;
 }
-.gift-section .gift-card {
-  width: 581px;
-  height: 88px;
-  background-color:var(--Secondary-color);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: absolute;
+.gift-section__container-cards3__card4 {
+  top: 0px;
+  transform: translate(0, -75%);
 }
-.gift-section__container-cards2__content-card{
-    position: absolute;
+.gift-section__container-cards3__card5 {
+  top: 50%;
+  transform: translate(0, -75%);
 }
