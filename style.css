@@ -10,7 +10,7 @@ body {
   --Secondary-Darker-color: #101010;
   --icone-section2: #434a5a;
   --gray-2-color: #757575;
-  --gray-3-color:#282828;
+  --gray-3-color: #282828;
 }
 .circle-background {
   border-radius: 100%;
@@ -246,15 +246,23 @@ header {
   padding: 0px 8px;
   position: absolute;
   left: 130px;
+  font-family: IRANYekanWebFn;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+  color: white;
 }
 .gift-section .gift-card div {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.gift-section .gift-card div .icone-container{
-    background-color:var(--gray-3-color) ;
-    padding:8px;
+.gift-section .gift-card div p span {
+  color: var(--primary-color);
+}
+.gift-section .gift-card div .icone-container {
+  background-color: var(--gray-3-color);
+  padding: 8px;
 }
 .gift-section__container-cards1 {
   height: 210px;
@@ -274,6 +282,21 @@ header {
   position: absolute;
   width: 30%;
   top: 60px;
+  color: white;
+}
+.gift-section__container-cards2__content-card .title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom:16px;
+}
+.gift-section__container-cards2__content-card .content {
+  font-family: IRANYekanWebFn;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+}
+.gift-section__container-cards2__content-card .content span {
+    color: var(--primary-color);
 }
 .gift-section__container-cards2__card2 {
   top: 0;
