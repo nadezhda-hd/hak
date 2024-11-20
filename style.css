@@ -12,6 +12,7 @@ body {
   --gray-2-color: #757575;
   --gray-3-color: #282828;
   --section-4-color: #1b1b1b;
+  --red-section5-color: #94404066;
 }
 .circle-background {
   border-radius: 100%;
@@ -425,6 +426,11 @@ header {
   font-weight: 300;
   color: white;
 }
+.members-section__cards__master-card__box ul li.mid {
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  padding: 20px 0;
+}
 .members-section__cards__master-card > span {
   position: absolute;
   top: 515px;
@@ -470,8 +476,8 @@ header {
 .members-section__cards__another-card .profile {
   position: relative;
 }
-.members-section__cards__another-card>p span{
-    color:var(--primary-color);
+.members-section__cards__another-card > p span {
+  color: var(--primary-color);
 }
 .members-section__cards__another-card .profile .crown {
   position: absolute;
@@ -503,4 +509,392 @@ header {
   bottom: -100px;
   width: 64px;
   height: 64px;
+}
+.vulnerability-section {
+  height: 2545px;
+}
+.vulnerability-section__title-container {
+  background-color: var(--gray-2-color);
+  color: white;
+}
+.vulnerability-section__title-container__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 144px;
+}
+.vulnerability-section__title-container__title p.title {
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 18px;
+}
+.vulnerability-section__title-container__title p.content {
+  font-size: 14px;
+  font-weight: 300;
+}
+.vulnerability-section__information-container {
+  background-color: var(--Secondary-Darker-color);
+  height: 1608px;
+  color: white;
+}
+.vulnerability-section__information-container__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 80px 0px;
+}
+.vulnerability-section__information-container__title p.title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.vulnerability-section__information-container__title p.content {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  text-align: center;
+}
+.vulnerability-section__information-container__title p.content span {
+  color: var(--primary-color);
+}
+.vulnerability-section__information-container__damane-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.vulnerability-section__information-container__damane-cards__title {
+  background-color: var(--gray-3-color);
+  width: 380px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.vulnerability-section__information-container__damane-cards__content {
+  background-color: var(--gray-3-color);
+  width: 1180px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+.vulnerability-section__information-container__damane-cards__content ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 50%;
+}
+.vulnerability-section__information-container__damane-cards__content ul li {
+  width: 360px;
+  height: 40px;
+  top: 3411px;
+  left: 540px;
+  background-color: var(--Secondary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vulnerability-section__information-container__mahdodiat-cards {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.vulnerability-section__information-container__mahdodiat-cards__title {
+  width: 380px;
+  height: 56px;
+  background-color: var(--gray-3-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.vulnerability-section__information-container__mahdodiat-cards__content {
+  width: 1180px;
+  height: 260px;
+  background-color: var(--gray-3-color);
+  padding: 20px 25px;
+}
+.vulnerability-section__information-container__mahdodiat-cards__content ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 25%;
+}
+.vulnerability-section__information-container__mahdodiat-cards__content ul li {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--Secondary-color);
+  padding: 10px 85px;
+}
+.vulnerability-section__information-container__asib-cards {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.vulnerability-section__information-container__asib-cards__title {
+  background-color: var(--gray-3-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 380px;
+  height: 56px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.vulnerability-section__information-container__asib-cards__content {
+  background-color: var(--gray-3-color);
+  width: 1180px;
+  height: 504px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.vulnerability-section__information-container__asib-cards__content__parts {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 195px 20px 195px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22.55px;
+  position: relative;
+  color: var(--gray-2-color);
+  margin: 0 30px;
+  border-bottom: 1px solid white;
+  margin-bottom: 10px;
+}
+.vulnerability-section__information-container__asib-cards__content__parts
+  span.neshanshode {
+  color: white;
+}
+.vulnerability-section__information-container__asib-cards__content__parts img {
+  position: absolute;
+  bottom: 0;
+  left: 340px;
+}
+.vulnerability-section__information-container__asib-cards__content ul {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  width: 100%;
+}
+.vulnerability-section__information-container__asib-cards__content ul li {
+  background-color: var(--Secondary-color);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.vulnerability-section__information-container__asib-cards__content .three-2 {
+  display: flex;
+}
+.vulnerability-section__information-container__asib-cards__content
+  .three-2
+  .first {
+  width: 299px;
+  height: 40px;
+}
+.vulnerability-section__information-container__asib-cards__content
+  .three-2
+  .second {
+  width: 471px;
+  height: 40px;
+}
+.vulnerability-section__information-container__asib-cards__content
+  .three-2
+  .third {
+  width: 330px;
+  height: 40px;
+}
+.vulnerability-section__information-container__asib-cards__content .four-3-1 {
+  display: flex;
+}
+.vulnerability-section__information-container__asib-cards__content
+  .four-3-1
+  .first {
+  width: 385px;
+  height: 40px;
+}
+.vulnerability-section__information-container__asib-cards__content
+  .four-3-1
+  .second {
+  width: 203px;
+  height: 40px;
+}
+.vulnerability-section__information-container__asib-cards__content
+  .four-3-1
+  .third {
+  width: 341px;
+  height: 40px;
+}
+.vulnerability-section__information-container__asib-cards__content
+  .four-3-1
+  .fourth {
+  width: 161px;
+}
+.vulnerability-section__information-container__asib-cards__content .four-3-2 {
+  display: flex;
+}
+.vulnerability-section__information-container__asib-cards__content
+  .four-3-2
+  .first {
+  width: 202px;
+  height: 40px;
+}
+.vulnerability-section__information-container__asib-cards__content
+  .four-3-2
+  .second {
+  width: 260px;
+  height: 40px;
+}
+.vulnerability-section__information-container__asib-cards__content
+  .four-3-2
+  .third {
+  width: 295px;
+  height: 40px;
+}
+.vulnerability-section__information-container__asib-cards__content
+  .four-3-2
+  .fourth {
+  width: 333px;
+  height: 40px;
+}
+.vulnerability-section__information-container__gozaresh-card {
+  width: 1180px;
+  height: 87px;
+  background-color: var(--Secondary-Light-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: center;
+}
+.vulnerability-section__information-container__gozaresh-card span {
+  color: var(--primary-color);
+}
+.vulnerability-section__information2-container {
+  height: 425px;
+  background-color: var(--section-4-color);
+}
+.vulnerability-section__information2-container .container {
+  position: relative;
+  color: white;
+  height:100%;
+}
+.vulnerability-section__information2-container .title {
+  position: absolute;
+  left: 285px;
+  transform: translateX(10%);
+  top: 135px;
+  font-size: 36px;
+  font-weight: 700;
+}
+.vulnerability-section__information2-container .title span {
+  color: var(--red-section5-color);
+}
+.vulnerability-section__information2-container .stop {
+  position: absolute;
+  left: 558px;
+  top: 135px;
+  transform: translate(-10%, -30%);
+}
+.vulnerability-section__information2-container__cards {
+  background-color: var(--Secondary-Darker-color);
+  border: 1px solid var(--red-section5-color);
+  width: 1180px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  top: 100%;
+  transform:translateY(-50%);
+}
+.vulnerability-section__information2-container__cards ul {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  width: 100%;
+}
+.vulnerability-section__information2-container__cards ul li {
+  background-color: var(--red-section5-color);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.vulnerability-section__information2-container__cards .three-2 {
+  display: flex;
+}
+.vulnerability-section__information2-container__cards .three-2 .first {
+  width: 299px;
+  height: 40px;
+}
+.vulnerability-section__information2-container__cards .three-2 .second {
+  width: 471px;
+  height: 40px;
+}
+.vulnerability-section__information2-container__cards .three-2 .third {
+  width: 330px;
+  height: 40px;
+}
+.vulnerability-section__information2-container__cards .four-3-1 {
+  display: flex;
+}
+.vulnerability-section__information2-container__cards .four-3-1 .first {
+  width: 385px;
+  height: 40px;
+}
+.vulnerability-section__information2-container__cards .four-3-1 .second {
+  width: 203px;
+  height: 40px;
+}
+.vulnerability-section__information2-container__cards .four-3-1 .third {
+  width: 341px;
+  height: 40px;
+}
+.vulnerability-section__information2-container__cards .four-3-1 .fourth {
+  width: 161px;
+}
+.vulnerability-section__information2-container__cards .four-3-2 {
+  display: flex;
+}
+.vulnerability-section__information2-container__cards .four-3-2 .first {
+  width: 202px;
+  height: 40px;
+}
+.vulnerability-section__information2-container__cards .four-3-2 .second {
+  width: 260px;
+  height: 40px;
+}
+.vulnerability-section__information2-container__cards .four-3-2 .third {
+  width: 295px;
+  height: 40px;
+}
+.vulnerability-section__information2-container__cards .four-3-2 .fourth {
+  width: 333px;
+  height: 40px;
+}
+.vulnerability-section__continue {
+  background-color: var(--Secondary-Darker-color);
+  height: 400px;
 }
